@@ -1,6 +1,5 @@
 const square = (num) => {
-  const result = num ** 2;
-　console.log(result);
+  return num ** 2;
 }
 
-square(10);//10が出力
+console.log(square(10));
